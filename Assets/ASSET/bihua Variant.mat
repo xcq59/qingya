@@ -41,6 +41,7 @@ Material:
     m_Floats:
     - _Float: 1.5
     m_Colors:
-    - _Vector2: {r: 0.86, g: 1.17, b: 0, a: 0}
-    - _Vector2_1: {r: -0.19, g: -0.26, b: 0, a: 0}
+    - _: {r: 0.002, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 1.11, g: 1.17, b: 0, a: 0}
+    - _Vector2_1: {r: -0.43, g: -0.26, b: 0, a: 0}
   m_BuildTextureStacks: []
