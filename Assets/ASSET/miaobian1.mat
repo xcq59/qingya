@@ -43,10 +43,10 @@ Material:
     - _doudong: 0
     - _dry: 1.06
     - _normal_thr: 1.37
-    - _power: 8.31
+    - _power: 5.23
     - _strength: 0.0005
     - _threshold: 0.81
     m_Colors:
-    - _Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+    - _Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
     - _line_thickness: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
