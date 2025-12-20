@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/unity/test"
+		}
+	],
+	"settings": {
+		"dotnet.defaultSolution": "QingYaGame.sln"
+	}
+}
