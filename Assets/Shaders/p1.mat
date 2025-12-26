@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_InkReveal
+  m_Name: p1
   m_Shader: {fileID: 4800000, guid: 1d64645b42da7f84581b1196f5cf25b6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

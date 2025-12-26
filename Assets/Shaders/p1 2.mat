@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: p1 2
+  m_Shader: {fileID: 4800000, guid: 1d64645b42da7f84581b1196f5cf25b6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_36f8206b9c2a4194a8ef868b60ab8654_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 08d200e779a48864092a9d2ad5c49e17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float: 1.5
+    - _Progress: 1
+    - _RevealEdgeWidth: 0.128
+    m_Colors:
+    - _: {r: 0.005, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0.64, g: 0.85, b: 0, a: 0}
+    - _Vector2_1: {r: -0.01, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
