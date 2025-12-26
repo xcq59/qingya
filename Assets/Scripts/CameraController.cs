@@ -52,6 +52,13 @@ public class CameraController : MonoBehaviour
 
     void HandleInput()
     {
+        // Check if PaintingSystem is handling the input or if we are clicking a start point
+        if (PaintingSystem.Instance != null)
+        {
+            if (PaintingSystem.Instance.IsDraggingPath) return;
+            if (Input.GetMouseButtonDown(0) && PaintingSystem.Instance.IsMouseOverStartPoint()) return;
+        }
+
         if (Input.GetMouseButton(0)) // Dragging screen (assuming Left Mouse Button for now, or Touch)
         {
             float mouseX = Input.GetAxis("Mouse X");

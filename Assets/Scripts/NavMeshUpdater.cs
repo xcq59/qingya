@@ -16,27 +16,9 @@ public class NavMeshUpdater : MonoBehaviour
 
     public void UpdateNavMesh()
     {
-        // If using NavMeshComponents:
-        // if (surface != null) surface.BuildNavMesh();
-        
-        // If using legacy or built-in runtime update (complex):
-        // NavMeshBuilder.UpdateNavMeshData(...);
-        
-        Debug.Log("Requesting NavMesh Update...");
-        // For this implementation, we assume the project has a setup for runtime baking.
-        // If not, we can't easily write the full runtime baker without the package.
-        // But we can try to use the NavMeshSurface component via reflection or just assume it's there.
-        
-        // Placeholder for actual implementation:
-        var surface = FindObjectOfType<NavMeshSurface>();
-        if (surface != null)
-        {
-            surface.BuildNavMesh();
-        }
-        else
-        {
-            Debug.LogWarning("NavMeshSurface not found. Cannot update NavMesh at runtime.");
-        }
+        // User requested NO runtime baking.
+        // Logic is now handled by NavMeshObstacle in PaintedPath.cs
+        // Keeping this method empty to avoid breaking references.
     }
 }
 
