@@ -5800,7 +5800,7 @@ Transform:
   m_GameObject: {fileID: 1460558471}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.47, y: 39.04, z: -10.86}
+  m_LocalPosition: {x: -5, y: 35.9, z: 1.1}
   m_LocalScale: {x: 67.50498, y: 56.033775, z: 81.30614}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8665,7 +8665,6 @@ Transform:
   - {fileID: 7987362369687358210}
   - {fileID: 9004044453274445810}
   - {fileID: 2130524059795046129}
-  - {fileID: 5953196864746825802}
   - {fileID: 1723003632978181641}
   - {fileID: 1615076805539084542}
   - {fileID: 7908738147104338680}
@@ -10579,7 +10578,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1935743977385830145
 MeshRenderer:
@@ -16367,12 +16366,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7583770830704372692}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -4.2275996, y: 14.364774, z: -3.5152686}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -2.966187, y: 33.985226, z: 5.0338135}
+  m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450651612357443}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5955408458018547396
 MeshRenderer:
@@ -19127,7 +19126,7 @@ GameObject:
   - component: {fileID: 256209467}
   - component: {fileID: 7583770830704372693}
   m_Layer: 0
-  m_Name: "\u7ACB\u65B9\u4F53.070"
+  m_Name: p7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19140,7 +19139,7 @@ NavMeshObstacle:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7583770830704372692}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Shape: 1
   m_Extents: {x: 0.010000001, y: 0.034, z: 0.023000002}
@@ -21986,4 +21985,5 @@ SceneRoots:
   - {fileID: 7449186461983588370}
   - {fileID: 7085920340795400234}
   - {fileID: 1908308751969766757}
+  - {fileID: 5953196864746825802}
   - {fileID: 1460558472}
