@@ -133,6 +133,15 @@ public class DraggableBlock : MonoBehaviour
         if (rb != null) rb.isKinematic = true; // We control movement
     }
 
+    void OnDisable()
+    {
+        // Ensure we clean up drag state if the object is disabled while dragging.
+        if (isDragging)
+        {
+            EndDrag();
+        }
+    }
+
 
     void Update()
     {
@@ -258,6 +267,8 @@ public class DraggableBlock : MonoBehaviour
         pendingDrag = false;
         isDragging = true;
         IsDraggingAny = true;
+        // Signal global input lock so other systems (camera, UI) stop processing pointer input while dragging this block.
+        InputLockManager.BeginDrag();
 
         // Use current position as the new constraint origin for this drag session.
         initialPosition = transform.position;
@@ -282,6 +293,8 @@ public class DraggableBlock : MonoBehaviour
         isDragging = false;
         IsDraggingAny = false;
         pendingDrag = false;
+        // Release global input lock when drag ends
+        InputLockManager.EndDrag();
         UpdateConnectivity();
     }
 
